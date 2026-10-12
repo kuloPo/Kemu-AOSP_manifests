@@ -2,6 +2,7 @@
 <manifest>
   <remote name="aosp" fetch="https://android.googlesource.com/" review="https://android-review.googlesource.com/" />
   <remote name="digitalis" fetch="https://github.com/DigitalisX64/" />
+  <remote name="github" fetch="https://github.com/kuloPo/" />
   <default revision="android16-qpr2-release" remote="aosp" sync-j="4" />
   <contactinfo bugurl="go/repo-bug" />
   <project path="build/make" name="platform/build" groups="pdk,sysui-studio" revision="b815dded1eafbf06191a6ae306956bb6ed6fb415" upstream="android16-qpr2-release" dest-branch="android16-qpr2-release">
@@ -61,7 +62,7 @@
   <project path="external/AFLplusplus" name="platform/external/AFLplusplus" groups="pdk" revision="42db19266843a4121d8539336b0d343936b54312" upstream="android16-qpr2-release" dest-branch="android16-qpr2-release" />
   <project path="external/android-key-attestation" name="platform/external/android-key-attestation" groups="pdk" revision="87b8030626b04e16a7efbe2e15c673e2548eef52" upstream="android16-qpr2-release" dest-branch="android16-qpr2-release" />
   <project path="external/androidplot" name="platform/external/androidplot" groups="pdk" revision="e67b5c11b0a39d07706faa2f5faf820db3848005" upstream="android16-qpr2-release" dest-branch="android16-qpr2-release" />
-  <project path="external/angle" name="platform/external/angle" groups="pdk" revision="ff25cbdfe963e149e1a1ef4689e502270dfe6214" upstream="android16-qpr2-release" dest-branch="android16-qpr2-release" />
+  <project path="external/angle" name="Kemu-AOSP_external_angle" groups="pdk" revision="refs/heads/android16-qpr2-release" upstream="refs/heads/android16-qpr2-release" dest-branch="android16-qpr2-release" remote="github" />
   <project path="external/anonymous-counting-tokens" name="platform/external/anonymous-counting-tokens" groups="pdk" revision="6671ee9f48220b14a6ed7a0795ac3f77f4a5bb36" upstream="android16-qpr2-release" dest-branch="android16-qpr2-release" />
   <project path="external/antlr" name="platform/external/antlr" groups="pdk" revision="16467b971bd3e2009fad32dd79016f2c7e421deb" upstream="android16-qpr2-release" dest-branch="android16-qpr2-release" />
   <project path="external/apache-commons-bcel" name="platform/external/apache-commons-bcel" groups="pdk" revision="357658e155b362aa464732dd52252e979f39fb56" upstream="android16-qpr2-release" dest-branch="android16-qpr2-release" />
@@ -356,7 +357,7 @@
   <project path="external/marisa-trie" name="platform/external/marisa-trie" groups="pdk" revision="82e515bcaac323a3f745567b65f25816ec931e9a" upstream="android16-qpr2-release" dest-branch="android16-qpr2-release" />
   <project path="external/mbedtls" name="platform/external/mbedtls" groups="pdk" revision="5731ff2c1696892a134e0ff4c1d4fd482bc0b2e2" upstream="android16-qpr2-release" dest-branch="android16-qpr2-release" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" groups="pdk" revision="3e0189c4d3be5272398b1ea6ad2f223a973d0ea2" upstream="android16-qpr2-release" dest-branch="android16-qpr2-release" />
-  <project path="external/mesa3d" name="platform/external/mesa3d" groups="pdk-cw-fs,pdk-fs" revision="d4b6f1eba289310b16ee77bedb3c1cf467b6b6fd" upstream="android16-qpr2-release" dest-branch="android16-qpr2-release" />
+  <project path="external/mesa3d" name="Kemu-AOSP_external_mesa3d" groups="pdk-cw-fs,pdk-fs" revision="refs/heads/android16-qpr2-release" upstream="refs/heads/android16-qpr2-release" dest-branch="android16-qpr2-release" remote="github" />
   <project path="external/mime-support" name="platform/external/mime-support" groups="pdk" revision="95c94938697a1ae9bd1411af7eda185caabfe6a0" upstream="android16-qpr2-release" dest-branch="android16-qpr2-release" />
   <project path="external/minigbm" name="platform/external/minigbm" groups="pdk" revision="b7c93249f685222a524c51403719493cc114ff5d" upstream="android16-qpr2-release" dest-branch="android16-qpr2-release" />
   <project path="external/minijail" name="platform/external/minijail" groups="pdk" revision="ab6cd0f786481e2deecfe6f8563ae0d2416bd460" upstream="android16-qpr2-release" dest-branch="android16-qpr2-release" />
@@ -598,7 +599,7 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" groups="pdk-cw-fs,pdk-fs" revision="5e2ee3a622cbd8b71afc55801dc4fa54e057c35a" upstream="android16-qpr2-release" dest-branch="android16-qpr2-release" />
   <project path="frameworks/hardware/interfaces" name="platform/frameworks/hardware/interfaces" groups="pdk,sysui-studio" revision="0829856cccff8290b1b12ab0b20621d8e866f73c" upstream="android16-qpr2-release" dest-branch="android16-qpr2-release" />
   <project path="frameworks/layoutlib" name="platform/frameworks/layoutlib" groups="pdk-cw-fs,pdk-fs" revision="3709e29b1aa656d740aec325222b8c73b41bc8a2" upstream="android16-qpr2-release" dest-branch="android16-qpr2-release" />
-  <project path="frameworks/libs/binary_translation" name="platform_frameworks_libs_binary_translation" groups="pdk" remote="digitalis" revision="9e7f4407e0e32a582fe2a56f87492443ca55d6fa" upstream="android-latest-release" dest-branch="android-latest-release" />
+  <project path="frameworks/libs/binary_translation" name="platform_frameworks_libs_binary_translation" groups="pdk" remote="github" revision="refs/heads/android-latest-release" upstream="refs/heads/android-latest-release" dest-branch="android-latest-release" />
   <project path="frameworks/libs/systemui" name="platform/frameworks/libs/systemui" groups="pdk-cw-fs,pdk-fs,sysui-studio" revision="ca0ae237ed2d67f5b05f2572ddbcc6e10b550b92" upstream="android16-qpr2-release" dest-branch="android16-qpr2-release" />
   <project path="frameworks/libs/modules-utils" name="platform/frameworks/libs/modules-utils" groups="pdk-cw-fs,pdk-fs,sysui-studio" revision="e945bbce0ccb83e1111b6031a3bba89e6b5cac6f" upstream="android16-qpr2-release" dest-branch="android16-qpr2-release" />
   <project path="frameworks/libs/native_bridge_support" name="platform/frameworks/libs/native_bridge_support" groups="pdk" revision="ffd3f17ebbb244c01c274b6f527d016efc393813" upstream="android16-qpr2-release" dest-branch="android16-qpr2-release" />
