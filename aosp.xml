@@ -38,7 +38,7 @@
   <project path="device/generic/art" name="device/generic/art" groups="pdk" revision="d9c26558defdcdf2907c2abde9a9320dd404a7a9" upstream="android16-qpr2-release" dest-branch="android16-qpr2-release" />
   <project path="device/generic/car" name="device/generic/car" groups="pdk" revision="586533a2e8b95824b2b50055d895dbb4e384832a" upstream="android16-qpr2-release" dest-branch="android16-qpr2-release" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" revision="34d73c5cfefaf2c60e0d43cede31f8684953fc96" upstream="android16-qpr2-release" dest-branch="android16-qpr2-release" />
-  <project path="device/generic/goldfish" name="device_generic_goldfish" groups="pdk" remote="digitalis" revision="bbc2f1e4237016e744be8de59b7b6b310f2cc242" upstream="android-latest-release" dest-branch="android-latest-release" />
+  <project path="device/generic/goldfish" name="Kemu-AOSP_device_generic_goldfish" groups="pdk" remote="github" revision="refs/heads/android-latest-release" upstream="refs/heads/android-latest-release" dest-branch="android-latest-release" />
   <project path="device/generic/trusty" name="device/generic/trusty" groups="pdk" revision="01550474b0c8b935c0a04a2068535dbe67188d38" upstream="android16-qpr2-release" dest-branch="android16-qpr2-release" />
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" revision="4394cdf90094161d5caf4f7237c883ab2862c2f2" upstream="android16-qpr2-release" dest-branch="android16-qpr2-release" />
   <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" revision="43ed01aceb08b2ab661b4fb50b9a5fe145012d4b" upstream="android16-qpr2-release" dest-branch="android16-qpr2-release" />
