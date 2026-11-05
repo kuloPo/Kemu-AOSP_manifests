@@ -20,7 +20,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="art" name="platform/art" groups="pdk" revision="1690c6912a7972c9e62c39b48c706de9b8b18b4a" upstream="android16-qpr2-release" dest-branch="android16-qpr2-release" />
+  <project path="art" name="Kemu-AOSP_art" groups="pdk" revision="refs/heads/android16-qpr2-release" upstream="refs/heads/android16-qpr2-release" dest-branch="android16-qpr2-release" remote="github" />
   <project path="bionic" name="platform/bionic" groups="pdk" revision="f22516cbc67e81c13cf943ce02f01b8929a98726" upstream="android16-qpr2-release" dest-branch="android16-qpr2-release" />
   <project path="bootable/deprecated-ota" name="platform/bootable/deprecated-ota" groups="pdk-cw" revision="1cdf53bb9fae6f0c6cabcdfd4681609bb3c62489" upstream="android16-qpr2-release" dest-branch="android16-qpr2-release" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" revision="c33fecc2cdcd3f4f1c1eb628a194ff2a115a76e4" upstream="android16-qpr2-release" dest-branch="android16-qpr2-release" />
